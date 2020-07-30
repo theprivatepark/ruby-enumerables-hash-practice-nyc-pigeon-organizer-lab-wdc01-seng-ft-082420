@@ -1,5 +1,3 @@
-require 'pry'
-
 def nyc_pigeon_organizer(data)
   
   final_data = data.each_with_object({}) do |(key, value), new_array|
@@ -15,5 +13,4 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  #binding.pry
 end
